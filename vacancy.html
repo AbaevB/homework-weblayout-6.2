@@ -109,9 +109,57 @@
   <!--Отправить резюме--> 
    <section class="resume">
     <div class="container">
-      <h2 class="resume__title">
-        отправить резюме
-      </h2>
+      <div class="resume__top">
+        <h2 class="resume__title">
+          отправить резюме
+        </h2>
+        <p class="resume__text">
+          Мы&nbsp;свяжемся с&nbsp;вами, когда появится подходящая вакансия
+        </p>
+      </div>
+      <form action="#" class="resume__form">
+        <div class="resume__form-top">
+         <div class="custom-input">
+          <label  class="custom-input__label" for="user-name">
+            Имя*
+          </label>
+          <input class="custom-input__field" id="user-name" name="user-name" type="text" required>
+         </div>
+         <div class="custom-input">
+          <label  class="custom-input__label" for="user-phone">
+            Телефон*
+          </label>
+          <input class="custom-input__field" id="user-phone" name="user-name" type="tel" required>
+         </div>
+         <div class="custom-input">
+          <label  class="custom-input__label" for="user-surname">
+            Фамилия*
+          </label>
+          <input class="custom-input__field" id="user-surname" name="user-surname" type="text" required>
+         </div>
+         <div class="custom-input">
+          <label  class="custom-input__label" for="user-email">
+            E-mail*
+          </label>
+          <input class="custom-input__field" id="user-email" name="user-email" type="email" required>
+         </div>
+         <div class="custom-input">
+          <label  class="custom-input__label" for="user-vacancy">
+            Желаемая должность*
+          </label>
+          <input class="custom-input__field" id="user-vacancy" name="user-vacancy" type="text" required>
+         </div>
+         <div class="custom-input">
+          <label  class="custom-input__label" for="user-resume">
+            Ссылка на резюме*
+          </label>
+          <input class="custom-input__field" id="user-resume" name="user-resume" type="text" required>
+         </div> 
+        </div>
+        <resume__form-bottom>
+
+        </resume__form-bottom>
+      </form>
     </div>
    </section>
 </main>
