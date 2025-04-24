@@ -119,7 +119,7 @@
       </div>
       <form action="#" class="resume__form">
         <div class="resume__form-top">
-         <div class="custom-input custom-input--error">
+         <div class="custom-input">
           <label  class="custom-input__label" for="user-name">
             Имя*
           </label>
@@ -146,14 +146,15 @@
             Некорректное значение
           </span>
          </div>
-         <div class="custom-input">
-          <label  class="custom-input__label" for="user-email">
+         <div class="custom-input custom-input--icon custom-input--error">
+          <label  class="custom-input__label" for="user-email" >
             E-mail*
           </label>
+          
+          <input class="custom-input__field" id="user-email" name="user-email" type="email" required >
           <svg class="custom-input__icon" aria-hidden="true" width="28" height="28">
             <use xlink:href="images/sprite.svg#icon-email"></use>
           </svg>
-          <input class="custom-input__field" id="user-email" name="user-email" type="email" required>
           <span class="custom-input__error-message">
             Некорректное значение
           </span>
@@ -167,14 +168,15 @@
             Некорректное значение
           </span>
          </div>
-         <div class="custom-input">
+         <div class="custom-input custom-input--icon">
           <label  class="custom-input__label" for="user-resume">
             Ссылка на резюме*
           </label>
+          
+          <input class="custom-input__field" id="user-resume" name="user-resume" type="text" required>
           <svg class="custom-input__icon" aria-hidden="true" width="28" height="28">
             <use xlink:href="images/sprite.svg#icon-link"></use>
           </svg>
-          <input class="custom-input__field" id="user-resume" name="user-resume" type="text" required>
           <span class="custom-input__error-message">
             Некорректное значение
           </span>
