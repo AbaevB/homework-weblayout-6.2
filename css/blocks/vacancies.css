@@ -1,3 +1,6 @@
+.vacancies {
+    margin-bottom: 120px;
+}
 .vacancies__top {
     display: flex;
     justify-content: space-between;
