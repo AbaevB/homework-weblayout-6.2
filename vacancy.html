@@ -119,41 +119,65 @@
       </div>
       <form action="#" class="resume__form">
         <div class="resume__form-top">
-         <div class="custom-input">
+         <div class="custom-input custom-input--error">
           <label  class="custom-input__label" for="user-name">
             Имя*
           </label>
           <input class="custom-input__field" id="user-name" name="user-name" type="text" required>
+          <span class="custom-input__error-message">
+            Некорректное значение
+          </span>
          </div>
          <div class="custom-input">
           <label  class="custom-input__label" for="user-phone">
             Телефон*
           </label>
           <input class="custom-input__field" id="user-phone" name="user-name" type="tel" required>
+          <span class="custom-input__error-message">
+            Некорректное значение
+          </span>
          </div>
          <div class="custom-input">
           <label  class="custom-input__label" for="user-surname">
             Фамилия*
           </label>
           <input class="custom-input__field" id="user-surname" name="user-surname" type="text" required>
+          <span class="custom-input__error-message">
+            Некорректное значение
+          </span>
          </div>
          <div class="custom-input">
           <label  class="custom-input__label" for="user-email">
             E-mail*
           </label>
+          <svg class="custom-input__icon" aria-hidden="true" width="28" height="28">
+            <use xlink:href="images/sprite.svg#icon-email"></use>
+          </svg>
           <input class="custom-input__field" id="user-email" name="user-email" type="email" required>
+          <span class="custom-input__error-message">
+            Некорректное значение
+          </span>
          </div>
          <div class="custom-input">
           <label  class="custom-input__label" for="user-vacancy">
             Желаемая должность*
           </label>
           <input class="custom-input__field" id="user-vacancy" name="user-vacancy" type="text" required>
+          <span class="custom-input__error-message">
+            Некорректное значение
+          </span>
          </div>
          <div class="custom-input">
           <label  class="custom-input__label" for="user-resume">
             Ссылка на резюме*
           </label>
+          <svg class="custom-input__icon" aria-hidden="true" width="28" height="28">
+            <use xlink:href="images/sprite.svg#icon-link"></use>
+          </svg>
           <input class="custom-input__field" id="user-resume" name="user-resume" type="text" required>
+          <span class="custom-input__error-message">
+            Некорректное значение
+          </span>
          </div> 
         </div>
         <resume__form-bottom>
