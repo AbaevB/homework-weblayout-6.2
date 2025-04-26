@@ -37,3 +37,11 @@
     column-gap: 40px;
     row-gap: 34px;
 }
+
+.resume__form-bottom    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 120px;
+}

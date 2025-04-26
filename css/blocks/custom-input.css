@@ -77,6 +77,7 @@ background-color: #FAFAFA;
     top: 50%;
     transform: translateY(-50%);
     color: #D6D2C4;
+    pointer-events: none;
 }
 
 
