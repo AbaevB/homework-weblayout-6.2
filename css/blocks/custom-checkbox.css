@@ -2,6 +2,10 @@
     border-color: #E80E0A;
 }
 
+.custom-checkbox--disabled .custom-checkbox__label::before  {
+    border-color: rgba(214, 210, 196, 0.5);
+}
+
 .custom-checkbox__field:checked+.custom-checkbox__label .custom-checkbox__icon {
     display: block;
 }
@@ -40,6 +44,8 @@
     border-color: #1D252D;
 }
 
+
+
 .custom-checkbox__icon {
     position: absolute;
     left: 7px;
@@ -58,4 +64,5 @@
 .custom-checkbox__link {
     color: #1D252D;
     text-decoration: underline;
+    outline: none;
 }
