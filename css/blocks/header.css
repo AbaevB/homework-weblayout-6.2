@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 80px;
   padding: 23px 28px;
-  background-color:#fff ;
+  background-color: #fff;
   z-index: 10;
   border-bottom: 1px solid #e2e2e2;
 }
@@ -30,4 +30,3 @@
 .header__logo {
   color: #1D252D;
 }
-

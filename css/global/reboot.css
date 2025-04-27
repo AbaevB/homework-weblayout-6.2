@@ -13,7 +13,7 @@ body {
   padding: 0;
   font-family: "IBM Plex Sans", "Arial", sans-serif;
   font-weight: 300;
-	color: #1D252D;
+  color: #1D252D;
   background-color: #FFFFFF;
 }
 
@@ -44,5 +44,3 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   appearance: none;
 }
-
-

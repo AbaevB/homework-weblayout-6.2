@@ -1,7 +1,7 @@
-.btn    {
+.btn {
     padding: 18px;
     border: none;
-    border-radius:40px ;
+    border-radius: 40px;
     background-color: #D6D2C4;
     font-size: 16px;
     line-height: 20px;
@@ -9,14 +9,14 @@
     cursor: pointer;
 }
 
-.btn:hover  {
-  color: #FFF;  
-  background-color: #1D252D;  
+.btn:hover {
+    color: #FFF;
+    background-color: #1D252D;
     outline: 1px solid #D6D2C4;
 }
 
-.btn:focus-visible  {
-    color: #FFF;  
-    background-color: #1D252D;  
+.btn:focus-visible {
+    color: #FFF;
+    background-color: #1D252D;
     outline: 1px solid #D6D2C4;
 }

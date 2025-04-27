@@ -1,0 +1,93 @@
+.custom-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+
+}
+
+.custom-input--error .custom-input__field {
+    border-color: #E80E0A;
+    background-color: #FFFAFA;
+}
+
+.custom-input--error .custom-input__error-message {
+    display: block;
+}
+
+.custom-input--error .custom-input__icon {
+    color: #F26F6C;
+}
+
+.custom-input--disabled .custom-input__field {
+    border-color: #E9E9E9;
+    background-color: #FAFAFA;
+}
+
+.custom-input--disabled .custom-input__icon {
+    color: #D6D2C4;
+}
+
+.custom-input--icon .custom-input__field {
+    padding-right: 52px;
+}
+
+.custom-input__field {
+    padding: 18px 20px;
+    border: 1px solid #D6D2C4;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: inherit;
+    color: #1D252D;
+    outline: none;
+}
+
+.custom-input__label {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D252D;
+    background-color: #fff;
+    padding: 0 8px;
+    position: absolute;
+    left: 12px;
+    top: -10px;
+}
+
+.custom-input__field:hover {
+    border-color: #1D252D;
+}
+
+.custom-input__field:hover~.custom-input__icon {
+    color: #757576;
+}
+
+.custom-input__field:focus-visible {
+    border-color: #1D252D;
+}
+
+.custom-input__field:focus-visible~.custom-input__icon {
+    color: #757576;
+}
+
+.custom-input__icon {
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #D6D2C4;
+    pointer-events: none;
+}
+
+
+
+.custom-input__error-message {
+    display: none;
+    position: absolute;
+    bottom: -14px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E80E0A;
+}

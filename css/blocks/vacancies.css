@@ -1,3 +1,7 @@
+.vacancies {
+    margin-bottom: 120px;
+}
+
 .vacancies__top {
     display: flex;
     justify-content: space-between;
@@ -6,7 +10,7 @@
     padding-bottom: 40px;
 }
 
-.vacancies__title   {
+.vacancies__title {
     font-weight: 200;
     font-size: 60px;
     line-height: 72px;
@@ -34,7 +38,7 @@
 
 }
 
-.vacancies__contacts-list   {
+.vacancies__contacts-list {
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
@@ -42,7 +46,7 @@
     display: flex;
 }
 
-.vacancies__contacts-item   {
+.vacancies__contacts-item {
     padding: 0 10px;
     position: relative;
 }
@@ -54,43 +58,43 @@
     content: '';
     width: 1px;
     height: 20px;
-background-color: #1D252D;
+    background-color: #1D252D;
 }
 
 .vacancies__contacts-link {
-   font-weight: 300;
-   font-size: 18px;
-   line-height: 22px;
-   color: #1D252D; 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D252D;
 }
 
-.vacancies__contacts-btn    {
-  border: none;  
-  background-color: transparent;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
-  color: #1D252D;
-  text-decoration: underline;
-  cursor: pointer;
+.vacancies__contacts-btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1D252D;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
-.vacancies__table   {
+.vacancies__table {
     table-layout: fixed;
     width: 100%;
-    border-collapse: collapse;  
+    border-collapse: collapse;
 }
 
 .vacancies__row {
-  border-bottom: 1px solid #D6D2C4; 
+    border-bottom: 1px solid #D6D2C4;
 }
 
-.vacancies__row:hover   {
+.vacancies__row:hover {
     background-color: rgba(214, 210, 196, 0.2);
 }
 
-.vacancies__cell    {
+.vacancies__cell {
     font-weight: 300;
     padding: 28px;
     color: #1D252D;
@@ -102,7 +106,7 @@ background-color: #1D252D;
     line-height: 24px;
     text-transform: uppercase;
     text-align: left;
-    
+
 
 }
 

@@ -17,25 +17,24 @@
     display: flex;
 }
 
-.cookie__close  {
+.cookie__close {
     position: absolute;
-    top:9px;
+    top: 9px;
     right: 10px;
-   padding: 2px;
-   background-color: transparent;
+    padding: 2px;
+    background-color: transparent;
     border: none;
-    color:#fff ;
+    color: #fff;
     cursor: pointer;
 }
 
-.cookie__text   {
+.cookie__text {
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
-    color:#fff ;
+    color: #fff;
 }
 
-.cookie__link   {
+.cookie__link {
     text-decoration: underline;
 }
-
