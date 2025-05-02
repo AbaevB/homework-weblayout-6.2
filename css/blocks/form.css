@@ -1,0 +1,25 @@
+.resume__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 48px;
+}
+
+.form__btn   {
+    width: 320px;
+}
+
+.resume__form-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 34px;
+}
+
+.resume__form-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 120px;
+}
