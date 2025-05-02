@@ -31,6 +31,10 @@
     gap: 48px;
 }
 
+.form__btn   {
+    width: 320px;
+}
+
 .resume__form-top {
     display: grid;
     grid-template-columns: 1fr 1fr;

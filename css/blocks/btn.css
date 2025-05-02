@@ -9,6 +9,14 @@
     cursor: pointer;
 }
 
+.btn--small {
+    padding: 9px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+
 .btn:hover {
     color: #FFF;
     background-color: #1D252D;
