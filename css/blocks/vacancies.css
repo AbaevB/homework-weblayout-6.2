@@ -1,5 +1,5 @@
 .vacancies {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .vacancies__top {
@@ -11,6 +11,7 @@
 }
 
 .vacancies__title {
+    margin: 0;
     font-weight: 200;
     font-size: 60px;
     line-height: 72px;
@@ -30,7 +31,6 @@
 .vacancies__contacts-text {
     margin: 0;
     margin-bottom: 5px;
-    padding: 0 10px;
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;
@@ -47,8 +47,11 @@
 }
 
 .vacancies__contacts-item {
-    padding: 0 10px;
     position: relative;
+}
+
+.vacancies__contacts-item:first-child   {
+    padding-right: 10px;
 }
 
 .vacancies__contacts-item:first-child::after {
@@ -61,6 +64,10 @@
     background-color: #1D252D;
 }
 
+.vacancies__contacts-item:last-child    {
+    padding-left: 10px;
+}
+
 .vacancies__contacts-link {
     font-weight: 300;
     font-size: 18px;
@@ -68,15 +75,12 @@
     color: #1D252D;
 }
 
-.vacancies__contacts-btn {
-    border: none;
-    background-color: transparent;
+.vacancies__contacts-send {
     font-weight: 300;
     font-size: 14px;
     line-height: 18px;
     color: #1D252D;
     text-decoration: underline;
-    cursor: pointer;
 }
 
 
