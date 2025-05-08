@@ -84,43 +84,46 @@
 }
 
 
-.vacancies__table {
-    table-layout: fixed;
+.vacancies__list    {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.vacancies__list-item   {
+   border-bottom: 1px solid #D6D2C4; 
+}
+
+.vacancies__list-item:first-child   {
+    border-top: 1px solid #D6D2C4;
+}
+
+.vacancies__list-link   {
     width: 100%;
-    border-collapse: collapse;
-}
-
-.vacancies__row {
-    border-bottom: 1px solid #D6D2C4;
-}
-
-.vacancies__row:hover {
-    background-color: rgba(214, 210, 196, 0.2);
-}
-
-.vacancies__cell {
-    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 28px;
-    color: #1D252D;
 }
 
-.vacancies__cell:first-child {
-    width: 66%;
+.vacancies__list-link:hover {
+   background-color: rgba(214, 210, 196, 0.2); 
+}
+
+
+
+.vacancies__list-title  {
+    font-weight: 300;
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    text-align: left;
-
-
+    color: #1D252D;
 }
 
-.vacancies__cell:last-child {
-    width: 33%;
+.vacancies__list-text   {
+    font-weight: 300;
     font-size: 16px;
     line-height: 20px;
-    text-align: right;
+    color: #1D252D;
 }
 
-.vacancies__row:first-child {
-    border-top: 1px solid #D6D2C4;
-}
