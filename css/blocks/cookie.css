@@ -6,7 +6,7 @@
     bottom: 252px;
     width: 360px;
     background-color: #1D252D;
-    padding-top: 26px;
+    padding-top: 19px;
     padding-right: 26px;
     padding-bottom: 16px;
     padding-left: 26px;
@@ -19,8 +19,8 @@
 
 .cookie__close {
     position: absolute;
-    top: 9px;
-    right: 10px;
+    top: 5px;
+    right: 5px;
     padding: 2px;
     background-color: transparent;
     border: none;
