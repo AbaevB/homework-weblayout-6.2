@@ -26,12 +26,15 @@
 </header>
 <main>
   <!-- Вакансии -->
+   <h1 class="visually-hidden">
+    Страница вакансий
+   </h1>
    <section class="vacancies">
     <div class="container">
       <div class="vacancies__top">
-        <h1 class="vacancies__title">
+        <h2 class="vacancies__title">
           Вакансии
-        </h1>
+        </h2>
         <div class="vacancies__contacts">
           <span class="vacancies__contacts-text">
             Контакты HR-отдела
@@ -129,8 +132,8 @@
           Мы&nbsp;свяжемся с&nbsp;вами, когда появится подходящая вакансия
         </p>
       </div>
-      <form class="resume__form" action="#">
-        <div class="resume__form-top">
+      <form class="resume-form" action="#">
+        <div class="resume-form__top">
          <div class="custom-input">
           <label class="custom-input__label" for="user-name">
             Имя*
@@ -194,7 +197,7 @@
           </span>
          </div> 
         </div>
-        <div class="resume__form-bottom">
+        <div class="resume-form__bottom">
           <div class="custom-checkbox">
             <input class="custom-checkbox__field visually-hidden" id="user-confirm" type="checkbox" name="user-confirm" required>
             <label class="custom-checkbox__label" for="user-confirm">
@@ -209,7 +212,7 @@
               </svg>
             </label>
           </div>
-          <button class="btn  form__btn" type="submit">
+          <button class="btn  resume-form__btn" type="submit">
             Отправить заявку
           </button>
         </div>
