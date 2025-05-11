@@ -26,12 +26,15 @@
 </header>
 <main>
   <!-- Вакансии -->
+   <h1 class="visually-hidden">
+    Страница вакансий
+   </h1>
    <section class="vacancies">
     <div class="container">
       <div class="vacancies__top">
-        <h1 class="vacancies__title">
+        <h2 class="vacancies__title">
           Вакансии
-        </h1>
+        </h2>
         <div class="vacancies__contacts">
           <span class="vacancies__contacts-text">
             Контакты HR-отдела
@@ -48,62 +51,74 @@
               </a>
             </li>
           </ul>
-          <button class="vacancies__contacts-btn" type="button">
+          <a class="vacancies__contacts-send" href="#">
             Отправить резюме
-          </button>
+          </a>
         </div>
       </div>
-      
-      <table class="vacancies__table">
-        <tr class="vacancies__row">
-          <td class="vacancies__cell">
-            руководитель группы продаж через sminex club
-          </td>
-          <td class="vacancies__cell">
-            240&nbsp;000&nbsp;руб.
-          </td>
-        </tr>
-        <tr class="vacancies__row">
-          <td class="vacancies__cell">
-            руководитель группы архитекторов (планировочные решения)
-          </td>
-          <td class="vacancies__cell">
-            от&nbsp;230&nbsp;000 до&nbsp;345&nbsp;000&nbsp;руб.
-          </td>
-        </tr>
-        <tr class="vacancies__row">
-          <td class="vacancies__cell">
-            администратор ресепшен/секретарь
-          </td>
-          <td class="vacancies__cell">
-            от&nbsp;65&nbsp;000 до&nbsp;85&nbsp;000&nbsp;руб.
-          </td>
-        </tr>
-        <tr class="vacancies__row">
-          <td class="vacancies__cell">
-            ведущий специалист по&nbsp;закупкам (отделочные материалы)
-          </td>
-          <td class="vacancies__cell">
-            от&nbsp;195&nbsp;000 до&nbsp;290&nbsp;000&nbsp;руб.
-          </td>
-        </tr>
-        <tr class="vacancies__row">
-          <td class="vacancies__cell">
-            ведущий специалист по&nbsp;закупкам (инженерное оборудование)
-          </td>
-          <td class="vacancies__cell">
-            от&nbsp;190&nbsp;000 до&nbsp;290&nbsp;000&nbsp;руб.
-          </td>
-        </tr>
-        <tr class="vacancies__row">
-          <td class="vacancies__cell">
-            начальник отдела проектирования&nbsp;кр (проектное бюро)
-          </td>
-          <td class="vacancies__cell">
-            з/п по&nbsp;итогам собеседования
-          </td>
-        </tr>
-      </table>
+      <ul class="vacancies__list">
+        <li class="vacancies__list-item">
+          <a class="vacancies__list-link" href="#">
+            <h3 class="vacancies__list-title">
+              руководитель группы продаж через sminex club
+            </h3>
+            <span class="vacancies__list-text">
+              240&nbsp;000&nbsp;руб.
+            </span>
+          </a>
+        </li>
+        <li class="vacancies__list-item">
+          <a class="vacancies__list-link" href="#">
+            <h3 class="vacancies__list-title">
+              руководитель группы архитекторов (планировочные решения)
+            </h3>
+            <span class="vacancies__list-text">
+              от&nbsp;230&nbsp;000 до&nbsp;345&nbsp;000&nbsp;руб.
+            </span>
+          </a>
+        </li>
+        <li class="vacancies__list-item">
+          <a class="vacancies__list-link" href="#">
+            <h3 class="vacancies__list-title">
+              администратор ресепшен/секретарь
+            </h3>
+            <span class="vacancies__list-text">
+              от&nbsp;65&nbsp;000 до&nbsp;85&nbsp;000&nbsp;руб.
+            </span>
+          </a>
+        </li>
+        <li class="vacancies__list-item">
+          <a class="vacancies__list-link" href="#">
+            <h3 class="vacancies__list-title">
+              ведущий специалист по&nbsp;закупкам (отделочные материалы)
+            </h3>
+            <span class="vacancies__list-text">
+              от&nbsp;195&nbsp;000 до&nbsp;290&nbsp;000&nbsp;руб.
+            </span>
+          </a>
+        </li>
+        <li class="vacancies__list-item">
+          <a class="vacancies__list-link" href="#">
+            <h3 class="vacancies__list-title">
+              ведущий специалист по&nbsp;закупкам (инженерное оборудование)
+            </h3>
+            <span class="vacancies__list-text">
+              от&nbsp;190&nbsp;000 до&nbsp;290&nbsp;000&nbsp;руб.
+            </span>
+          </a>
+        </li>
+        <li class="vacancies__list-item">
+          <a class="vacancies__list-link" href="#">
+            <h3 class="vacancies__list-title">
+              начальник отдела проектирования&nbsp;кр (проектное бюро)
+            </h3>
+            <span class="vacancies__list-text">
+              з/п по&nbsp;итогам собеседования
+            </span>
+          </a>
+        </li>
+      </ul>
+     
     </div>
    </section>
   <!--Отправить резюме--> 
@@ -117,8 +132,8 @@
           Мы&nbsp;свяжемся с&nbsp;вами, когда появится подходящая вакансия
         </p>
       </div>
-      <form class="resume__form" action="#">
-        <div class="resume__form-top">
+      <form class="resume-form" action="#">
+        <div class="resume-form__top">
          <div class="custom-input">
           <label class="custom-input__label" for="user-name">
             Имя*
@@ -182,7 +197,7 @@
           </span>
          </div> 
         </div>
-        <div class="resume__form-bottom">
+        <div class="resume-form__bottom">
           <div class="custom-checkbox">
             <input class="custom-checkbox__field visually-hidden" id="user-confirm" type="checkbox" name="user-confirm" required>
             <label class="custom-checkbox__label" for="user-confirm">
@@ -197,7 +212,7 @@
               </svg>
             </label>
           </div>
-          <button class="btn  resume__form-btn" type="submit">
+          <button class="btn  resume-form__btn" type="submit">
             Отправить заявку
           </button>
         </div>
@@ -205,19 +220,7 @@
     </div>
    </section>
 </main>
-<div class="cookie cookie--active">
-  <button class="cookie__close" aria-label="Закрыть окно" type="button">
-    <svg class="cookie__btn-icon" aria-hidden="true" width="13" height="13">
-      <use xlink:href="images/sprite.svg#icon-close"></use>
-    </svg>
-  </button>
-  <p class="cookie__text">
-    Мы&nbsp;используем файлы cookie для улучшения работы этого сайта. Для получения дополнительной информации ознакомьтесь с&nbsp;нашей <a class="cookie__link" href="#">Политикой конфиденциальности</a> 
-  </p>
-  <button class="btn cookie__btn" type="button">
-    Подробнее
-  </button>
-  </div>
+
 <footer class="footer">
   <div class="container">
     <div class="footer__content">
@@ -253,7 +256,20 @@
     </div>
   </div>
 </footer>
-
+<div class="cookie cookie--active">
+  <button class="cookie__close" aria-label="Закрыть окно" type="button">
+    <svg class="cookie__btn-icon" aria-hidden="true" width="20" height="20">
+      <use xlink:href="images/sprite.svg#icon-close"></use>
+    </svg>
+  </button>
+  <p class="cookie__text">
+    Мы&nbsp;используем файлы cookie для улучшения работы этого сайта. Для получения дополнительной информации ознакомьтесь с&nbsp;нашей <a class="cookie__link" href="#">Политикой конфиденциальности</a> 
+  </p>
+  <button class="btn btn--small" type="button">
+    Подробнее
+  </button>
+  </div>
+  
 </body>
 
 </html>
