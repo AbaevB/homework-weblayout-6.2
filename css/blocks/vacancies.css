@@ -1,4 +1,5 @@
 .vacancies {
+    padding-top: 40px;
     padding-bottom: 112px;
 }
 
@@ -6,8 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    /*padding-top: 40px;
+    padding-bottom: 40px;*/
+    margin-bottom: 40px;
 }
 
 .vacancies__title {
