@@ -19,9 +19,8 @@
     color: #F26F6C;
 }
 
-.custom-input--disabled .custom-input__field {
-    border-color: #E9E9E9;
-    background-color: #FAFAFA;
+.custom-input--disabled .custom-input__label    {
+   color: rgba(29, 37, 45, 0.5);
 }
 
 .custom-input--disabled .custom-input__icon {
@@ -95,4 +94,10 @@
     font-size: 12px;
     line-height: 14px;
     color: #E80E0A;
+}
+
+.custom-input__field[disabled]{
+    pointer-events: none;
+    border-color: #E9E9E9;
+    background-color: #E9E9E9;
 }
