@@ -183,12 +183,12 @@
             Некорректное значение
           </span>
          </div>
-         <div class="custom-input custom-input--icon">
+         <div class="custom-input custom-input--icon custom-input--disabled">
           <label class="custom-input__label" for="user-resume">
             Ссылка на резюме*
           </label>
           
-          <input class="custom-input__field" id="user-resume" name="user-resume" type="text" required>
+          <input class="custom-input__field" id="user-resume" name="user-resume" type="text" required disabled>
           <svg class="custom-input__icon" aria-hidden="true" width="28" height="28">
             <use xlink:href="images/sprite.svg#icon-link"></use>
           </svg>
@@ -198,8 +198,8 @@
          </div> 
         </div>
         <div class="resume-form__bottom">
-          <div class="custom-checkbox">
-            <input class="custom-checkbox__field visually-hidden" id="user-confirm" type="checkbox" name="user-confirm" required>
+          <div class="custom-checkbox custom-checkbox--disabled">
+            <input class="custom-checkbox__field visually-hidden" id="user-confirm" type="checkbox" name="user-confirm" required disabled>
             <label class="custom-checkbox__label" for="user-confirm">
               <span class="custom-checkbox__text">
                 Даю согласие на обработку 
@@ -212,7 +212,7 @@
               </svg>
             </label>
           </div>
-          <button class="btn  resume-form__btn" type="submit">
+          <button class="btn  resume-form__btn" type="submit" disabled>
             Отправить заявку
           </button>
         </div>
@@ -258,7 +258,7 @@
 </footer>
 <div class="cookie cookie--active">
   <button class="cookie__close" aria-label="Закрыть окно" type="button">
-    <svg class="cookie__btn-icon" aria-hidden="true" width="13" height="13">
+    <svg class="cookie__btn-icon" aria-hidden="true" width="20" height="20">
       <use xlink:href="images/sprite.svg#icon-close"></use>
     </svg>
   </button>

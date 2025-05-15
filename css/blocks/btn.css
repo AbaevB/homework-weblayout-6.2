@@ -28,3 +28,11 @@
     background-color: #1D252D;
     outline: 1px solid #D6D2C4;
 }
+
+.btn[disabled] {
+   pointer-events: none;
+    user-select: none;
+    border-color: rgba(214, 210, 196, 0.5);
+    background-color: rgba(214, 210, 196, 0.5);
+    color: rgba(29, 37, 45, 0.5);
+}

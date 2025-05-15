@@ -1,12 +1,11 @@
 .cookie {
     display: none;
-    flex-direction: column;
     position: fixed;
     right: 20px;
     bottom: 252px;
     width: 360px;
     background-color: #1D252D;
-    padding-top: 26px;
+    padding-top: 19px;
     padding-right: 26px;
     padding-bottom: 16px;
     padding-left: 26px;
@@ -15,12 +14,14 @@
 
 .cookie--active {
     display: flex;
+     flex-direction: column;
+     gap: 16px;
 }
 
 .cookie__close {
     position: absolute;
-    top: 9px;
-    right: 10px;
+    top: 5px;
+    right: 5px;
     padding: 2px;
     background-color: transparent;
     border: none;
@@ -29,6 +30,7 @@
 }
 
 .cookie__text {
+    margin: 0;
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
