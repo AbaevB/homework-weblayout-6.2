@@ -2,6 +2,10 @@
     border-color: #E80E0A;
 }
 
+.custom-checkbox--disabled {
+    pointer-events: none;
+}
+
 .custom-checkbox--disabled .custom-checkbox__label::before  {
     border-color: rgba(214, 210, 196, 0.5);
 }
@@ -65,4 +69,8 @@
     color: #1D252D;
     text-decoration: underline;
     outline: none;
+}
+
+.custom-checkbox__field[ disabled]  {
+    pointer-events: none;
 }
